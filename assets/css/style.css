@@ -1,0 +1,17 @@
+/*.container {
+	margin-left: 500px;
+}*/
+
+.btn {
+	margin-right: 4px;
+}
+
+.rating {
+/*	display: inline-block;*/
+}
+
+.gifContainer {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
