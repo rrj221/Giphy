@@ -62,13 +62,13 @@ $('#celebButtonsEl').on('click', '.celebButton', function () {
 
 			var still = response.data[i].images.fixed_height_still.url;
 			var gifEl = $('<img>', {
-							src: gif,
-							alt: alt,
-							class: 'gif', 
-							data: {still: still, animation: gif, paused: false},
-							// data: {animation: gif},
-							// data: {paused: false}
-						});
+				src: gif,
+				alt: alt,
+				class: 'gif', 
+				data: {still: still, animation: gif, paused: false},
+				// data: {animation: gif},
+				// data: {paused: false}
+			});
 
 			var gifContainerEl = $('<div>').attr('class', 'gifContainer');
 

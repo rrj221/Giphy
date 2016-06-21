@@ -2,6 +2,11 @@
 	margin-left: 500px;
 }*/
 
+body {
+	background-color: #A7F7FF;
+	background-color: #00FF19;
+}
+
 .btn {
 	margin-right: 4px;
 }
@@ -10,8 +15,22 @@
 /*	display: inline-block;*/
 }
 
+.celebButton {
+	margin-right: 0px;
+}
+
 .gifContainer {
 	display: inline-block;
 	margin-right: 20px;
 	margin-bottom: 20px;
+}
+
+.checkbox {
+	display: inline-block;
+	margin-right: 20px;
+	height: 34px;
+}
+
+.fullButton {
+	display: inline-block;
 }
